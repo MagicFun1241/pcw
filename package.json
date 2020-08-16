@@ -1,0 +1,26 @@
+{
+  "name": "pcw",
+  "version": "1.0.0",
+  "description": "Project cooperative writing",
+  "main": "index.js",
+  "bin": {
+    "pcw": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "code"
+  ],
+  "author": "MagicFun1241",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "chokidar": "^3.4.2",
+    "express": "^4.17.1",
+    "mkdirp": "^1.0.4",
+    "ngrok": "^3.2.7",
+    "ws": "^7.3.1",
+    "yargs": "^15.4.1"
+  }
+}
